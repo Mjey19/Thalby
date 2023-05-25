@@ -1,0 +1,158 @@
+@media (max-width: 1220px) {
+    .nav a {
+        margin-right: 5px;
+    }
+}
+
+/*-------------------------------------980px-------------*/
+@media (max-width: 980px) {
+    .nav a {
+        margin-right: 20px;
+    }
+    .nav a:last-child {
+        margin-right: 0;
+    }
+    .header_logo {
+        left: 5%;
+        top: 5%;
+        
+    }
+    .header-inner {
+        display: block;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .header-btn {
+        margin-top: 10px;
+       display: flex;
+       justify-content: center;
+       
+    }
+    .header-btn a {
+        margin-right: 0;
+    }
+    .header-btn a:nth-child(2) {
+        margin-right: 10px;
+    }
+    .header-btn a:nth-child(1) {
+        margin-right: 15px;
+    }
+    .header-body-inner {
+        display: block;
+        text-align: center;
+    }
+    .shop-cards {
+        display: flex;
+        flex-direction: column; 
+    }
+    .shop-card {
+       max-width: 100%;
+        margin-bottom: 50px;
+    }
+    .txt-card-inner {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 55px 0px;
+    }
+    .first-block {
+       
+    }
+    .txt-card-par {
+        margin-top: 0;
+        
+        margin: 0 auto;
+    }
+    .txt-card-inner img {
+        margin-top: 40px;
+    }
+    .first {
+        min-height: 820px;
+    }
+    .header-right img {
+        width: 391px;
+        
+    }
+    .color-inner {
+        display: block;
+    }
+    .color-eclipse {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 40px;
+    }
+    .block {
+        width: 100px;
+        height: 100px;
+    }
+    .color-block {
+        margin-bottom: 40px;
+    }
+    .color-block:last-child {
+        margin-top: 0;
+    }
+    .black-cards {
+        display: block;
+        
+    }
+    .black-card {
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .black-card-block {
+       height: 50%;
+    }
+}
+
+/*----------------------------------720px----------------------*/
+@media (max-width:720px ) {
+    .footer-inner {
+    display: block;
+    
+}
+.nav a {
+    font-size: 20px;
+}
+
+.footer-cont {
+    text-align: center;
+}
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt-card-inner img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+}
+
+
+/*----------------------------------720px----------------------*/
+@media (max-width:450px ) {
+    header {
+        padding: 0 0;
+    }
+    .header-inner {
+        margin-top: 30px;
+    }
+    .header-btn {
+        margin-top: 0;
+    }
+    .header-right img {
+        width: 100%;
+        height: 100%;
+    }
+    .header-left h1 {
+        
+    }
+    .top-form input {
+        max-width: 120px;
+    }
+    .txt-card-par h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+} 
